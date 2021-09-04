@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    line-height: 1;
+    padding: 0;
+
+}
+
+.showcase{
+    display: grid;
+    width: 100%;
+    background-color:black;
+    height: 100%;
+    
+}
+
+
+
+
+.showcase .inner h1{
+    text-align: center;
+    color: white;
+
+}
+
+.showcase .inner{
+    display:block;
+    margin: auto;
+   background-color: rgba(255, 255, 255, 0.103);
+   border-radius: 10px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    text-align: center;
+    height: 60%;
+}
+
+.increase , .decrease{
+width: 10em;
+height: 3em;
+border: 0;
+border-radius: 5px;
+background-color: orange;
+margin: 5px;
+}
+
+.showcase .reset {
+    width: 60px;
+    height: 50px;
+    background-color:crimson;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: url(/restart\ colr.png);
+    background-size: cover;
+    border-color: red;
+}

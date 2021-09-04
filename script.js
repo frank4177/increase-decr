@@ -40,6 +40,6 @@ function clear(){
     
  display.innerHTML = i
 
- gsap.from('.inner', {duration: 1, x: '-2%', ease: 'bounce'});
+ gsap.from('.inner', {duration: 1, x: '-4%', ease: 'bounce'});
 
     }
